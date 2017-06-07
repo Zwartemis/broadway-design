@@ -1,36 +1,42 @@
 body {
-  text-align: center;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
 }
 
 h1 {
   font-size: 70px;
-  font-weight: bold;
-  color: white;
 }
 
 h2 {
   font-size: 32px;
-  font-weight: bold;
 }
 
 h3 {
   font-size: 23px;
+}
+
+h1, h2, h3 {
   font-weight: bold;
 }
 
-#photoback {
+p {
+  font-size: 14px;
+}
+
+.photoback {
   color: white;
   background-image: url('/Users/LizDohrmann/Codecademy/projects/broadway/resources/images/the-flatiron-building.png');
 }
 
-#nav a{
+h1, h2, h3, p, .whiteback {
+  text-align: center;
+}
+
+a.nav{
   font-size: 18px;
   color: white;
 }
 
-.footer {
+.footer p{
   font-size: 11px;
   color: white;
   background-color: dimgray;
